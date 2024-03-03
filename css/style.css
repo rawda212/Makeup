@@ -1,0 +1,455 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:whitesmoke;
+}
+.contact-us{
+    position: fixed;
+    bottom: 150px;
+    right: 0px;
+    z-index: 300;
+    transition:all 0.5s;
+    
+}
+.contact-us ul li a{
+    text-align: center;
+    width: 2.2rem;
+    height: 2.5rem; 
+    color: white;
+    background-color: rgb(238, 114, 135);
+    display: block;
+    padding-top:3px ;
+    font-size: 25px;
+}
+.contact-us ul li a:hover{
+    background-color:rgb(236, 79, 105);
+}
+.contact-us ul li a i{
+    line-height: 2.5rem; 
+}
+.carousel-caption{
+    background-color: rgb(247, 177, 189,.3);
+} 
+.jumbotron{
+    background-color: pink;
+    color: rgb(172, 83, 98);
+    font-size: 20px;
+}
+.navbar{
+    background-color: rgb(247, 151, 167);
+}
+    
+.modal-header ,.form-check-input ,.btn1{
+    background-color: rgb(247, 151, 167) ;
+}
+.form-label , .form-text ,.form-check-label{
+    color:  rgb(247, 151, 167);
+}
+.accordion-item , .accordion-button {
+    background-color: rgb(247, 151, 167);
+}
+
+/* ////////////////////// */
+.title-translate{
+    background-color: rgb(247, 151, 167);
+}
+/* /////////////////////// */
+.fixed-img{
+    background-image: url(../images/images\ \(5\).jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+}
+/* ////////////////////////////////// */
+
+.btn-products{
+    background-color:  rgb(247, 151, 167);
+}
+.card::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background-color: rgb(235, 175, 185 , 0.5);
+    width: 0;
+    height: 0;
+    transform: scale(0);
+    transition: all 1s;
+    opacity: 0;
+}
+.card:hover::after{
+    width: 100%;
+    height: 100%;
+    transform: scale(1.05);
+    opacity: 1;
+}
+.card::before{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right:  0;
+    background-color: rgb(235, 175, 185 , 0.5);
+    width: 0;
+    height: 0;
+    transform: scale(0);
+    transition: all 1s;
+    opacity: 0;
+}
+.card:hover::before{
+    width: 100%;
+    height: 100%;
+    transform: scale(1.05);
+    opacity: 1;
+}
+/* ///////////////////////////////////////// */
+.fixed-img-2{
+    background-image: url(../images/images\ \(4\).jpeg);
+    width :100%;
+    height: 350px;
+    background-attachment: fixed;
+    background-size:cover;
+}
+/* /////////////////////////////////////////////////////// */
+.container-2 {
+    border-radius: 50px;
+    background-color: rgb(240, 124, 143);
+    font-size: 4rem;
+    font-family: "agbalumo";
+ }
+ .team .members .thx-card{
+    cursor: pointer;
+    min-height: 600px;
+    border: 4px solid rgb(236, 79, 105);
+    border-radius: 20px !important;
+    max-width: 400px;
+    margin: 5px auto;
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden; 
+}
+.team .members .thx-card:hover{
+    transform: scale(0.9);
+    box-shadow: 0 0 5px -2px rgba(0, 0, 0, 0.3);
+    background-size: 140%; 
+}
+.team .members .thx-card::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:inherit;
+    filter: grayscale(100%);
+}
+.team .members .card-img-1{
+    background-image: url(../images/team1.jpeg);
+}
+.team .members .card-img-2{
+    background-image: url(../images/team1.jpeg);
+}
+.team .members .card-img-3{
+    background-image: url(../images/team1.jpeg);
+}
+.svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa{
+    box-sizing: content-box;
+    overflow: visible;
+}
+.svg-inline--fa{
+    display: var(--fa-display, inline-block);
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em
+}
+.team .members .thx-card .card-img-overlay{
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1) ;
+    background: linear-gradient(0deg, #234f6d61 0%, #455f71 100%);
+}
+.team .members .thx-card:hover .card-img-overlay{
+    background: linear-gradient(0deg, rgba(4, 69, 114, 0.5) 0%, var(--dark-color) 100%);
+}
+.team .members .thx-card .card-img-overlay .upper-content{
+    flex:1;
+}
+.team .members .thx-card .card-img-overlay .upper-content h3:hover{
+    color:palevioletred !important;
+    transition: 0.5s;
+}
+.team .members .thx-card .card-img-overlay .lower-content{
+    flex:1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.team .members .thx-card .card-img-overlay .lower-content .img-box img{
+    width: 120px;
+    border:2px solid ;
+    transition:transform 1s ease-in-out;
+}
+.team .members .thx-card .card-img-overlay:hover .lower-content .img-box img{
+    transform: rotate(1turn);
+}
+.team .members .card-img-3 img{
+    aspect-ratio: 1/1;
+}
+/* //////////////////////////////////////////////// */
+.news h2.title{
+    font-family: "Agbalumo";
+}
+.news .news-card{
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.news .news-card:nth-child(2n){
+    flex-direction: row;
+}
+.news .news-card:nth-child(2n+1){
+    flex-direction: row-reverse;
+}
+.news .news-card .img-box{
+    flex:1;
+    width: 100%;
+    overflow: hidden;
+}
+.news-card:hover img{
+    transform: scale(1.2); 
+}
+.news .news-card .img-box img{
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease;
+}
+.news .news-card .description{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+} 
+.line{
+    width: 50px;
+    height: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: width 0.5s ease;
+}
+.news-card:hover .line{
+    width:140px;  
+}
+.news-card .description p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+    height: 100%;
+}
+.news-card .description ul .list-item{
+    display: inline-block;
+    background: rgba(83, 83, 83, 0.4);
+    border-radius: 3px;
+    padding: 3.5px 10px; 
+    margin:0 10px;
+    cursor: default;
+    -webkit-user-select: none;
+    user-select: none;
+    transition: background-color 0.5s;
+}
+/* end team  */
+.news h2.title {
+    font-family: "Agbalumo";
+    border-radius: 25px;
+    background-color:rgb(247, 151, 167) ;
+}
+.news h2.title1{
+    color: rgb(247, 151, 167);
+}
+.news .news-card{
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.news .news-card:nth-child(2n){
+    flex-direction: row;
+}
+.news .news-card:nth-child(2n+1){
+    flex-direction: row-reverse;
+}
+.news .news-card .img-box{
+    flex:1;
+    width: 100%;
+    overflow: hidden;
+}
+.news-card:hover img{
+    transform: scale(1.2); 
+}
+.news .news-card .img-box img{
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease;
+}
+.news .news-card .description{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+} 
+.line{
+    width: 50px;
+    height: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: width 0.5s ease;
+    background-color: rgb(247, 151, 167);
+}
+.news-card:hover .line{
+    width:140px;  
+}
+.news-card .description p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+    height: 100%;
+}
+.news-card .description ul .list-item{
+    display: inline-block;
+    background: rgba(83, 83, 83, 0.4);
+    border-radius: 3px;
+    padding: 3.5px 10px; 
+    margin:0 10px;
+    cursor: default;
+    -webkit-user-select: none;
+    user-select: none;
+    transition: background-color 0.5s;
+}
+/* footer */
+.footer{
+    background-color: rgb(247, 151, 167);
+}
+.footer .mid p a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #094949;
+}
+.footer .mid p a:hover{
+    text-decoration: underline;
+}
+.footer h5 span{
+    transition:all 0.5s;
+}
+.footer h5 span a{
+    text-decoration: none;
+    color: #fff;
+}
+.face:hover{
+    background-color:#3b5998 !important;
+}
+.twitter:hover{
+    background-color: #55acee !important;    
+}
+.youtube:hover{
+    background-color: #fff !important;
+}
+.youtube :hover{
+    color:#fe0100 !important;
+} 
+.linkedin:hover{
+    background-color: #007bb6 !important;
+}
+.instagram:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%) !important;
+}
+.google:hover{
+    background-color: #dd4b39 !important;
+}
+.google :hover{
+    color: #fff !important;
+} 
+/* end footer */
+/* /*---------------------------- */
+@media (width < 768px) {
+    .navbar .navbar-brand{
+        border-right:2px solid var(--main-color);
+        border-left:2px solid var(--main-color);
+    }
+    .carousel .carousel-item .carousel-caption{
+        transform: translateY(-25%);
+    }
+    .carousel .carousel-item .carousel-caption h5{
+        font-size: 1.5rem;
+    }
+    .incline-left{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%) !important;
+    }
+    .incline-right{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%) !important;
+    }
+    .news .news-card{
+        flex-direction: column !important;
+        height: 80vh;
+        max-width: 70vw; 
+        margin: auto;
+        overflow: auto;
+    }
+    .news-card .description{
+        justify-content: space-evenly;
+    }
+    .news-card .description ul .list-item{
+        transform: scale(0.7);
+        margin: 1px !important ;
+        padding: 2px 2px;
+        flex: 1;
+    }
+    .news-card .description ul .list-item:last-child{
+
+        flex: 2;
+    }
+    
+    .news .news-card .img-box{
+        flex:5 !important;
+        min-height:40%;
+    }
+    .news .news-card .description{
+        flex:1 !important;
+    }
+    .news .news-card .description p {
+        font-size: smaller;
+    }
+}
+@media (min-width: 992px){
+    .carousel .carousel-item .carousel-caption {
+        width: 50% !important;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , 0%);
+    }
+    .carousel .carousel-item .carousel-caption h5{
+        font-size: 3rem;
+    }
+    .carousel .carousel-item .carousel-caption > p{
+        font-size: x-large;
+    }
+}
+@media (width < 900px) and (width > 767px){
+    .navbar .nav-link{
+        font-size: 0.8rem !important; 
+        margin-left: 2px !important;
+        padding-right: 2px !important;
+    }
+    .navbar .nav-link:last-child{
+        margin-right: 4px;
+    }
+}
+@media (max-width: 1020px) { 
+    .incline-left{
+        clip-path: polygon(0 0, 80% 0, 80% 100%, 0 100%);
+    }
+    .incline-right{
+        clip-path: polygon(20% 0, 100% 0, 100% 100%, 20% 100%);
+    }
+    .navbar .nav-link {
+        font-size: 1rem;
+        margin-left: 0.5rem;
+    }
+ }
