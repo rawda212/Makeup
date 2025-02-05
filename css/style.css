@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color:whitesmoke;
+    background-color:rgb(243, 206, 212);
 }
 .contact-us{
     position: fixed;
