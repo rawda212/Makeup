@@ -49,7 +49,9 @@ body{
 .accordion-item , .accordion-button {
     background-color: rgb(247, 151, 167);
 }
-
+.slide {
+    margin-top: 100px;
+}
 /* ////////////////////// */
 .title-translate{
     background-color: rgb(247, 151, 167);
